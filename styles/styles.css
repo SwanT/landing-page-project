@@ -8,6 +8,8 @@ ul {
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: space-around;
+    gap: 15px;
 }
 a {
     text-decoration: none;
@@ -23,6 +25,7 @@ a {
 h1 {
     font-size: 48px;
     color: #f9faf8;
+    margin: 0px;
 }
 .hero li a, .hero p, .footer{
     font-size: 18px;
@@ -33,13 +36,21 @@ button {
     border: none;
     border-radius: 4px;
     color: #E5E7EB;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px 15px;
+    width: 80px;
+    height: 25px;
 }
 
 .hero-img {
-    width: 500px;
     height: 200px;
     background-color: grey;
     color: #E5E7EB;
+    flex: 0 0 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h2 {
     color: #1F2937;
@@ -48,33 +59,94 @@ h2 {
 .quote {
     background-color: #E5e7eb;
     font-weight: 800;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
 }
 blockquote {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
+    margin: 0;
 }
 .sign-up-box {
     background-color: #3882F6;
     width: fit-content;
     color: #E5E7EB;
+    padding: 30px 80px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border-radius: 6px;
 }
 #sign-up-button {
     border: 1px solid #E5E7EB;
-    
+    flex: 0 0 80px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
+    padding: 0px 100px 80px;
 }
 .header {
     display: flex;
+    align-items: center;
 }
 .info-box   {
     display: flex;
 }
 .info-panel   {
     display: flex;
-
+flex-direction: column;
+align-items: center;
+padding-bottom: 80px;
+}
+.images {
+    display: flex;
+    padding: 0px 150px;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+.nav {
+    margin-left: auto;
+}
+.main {
+    padding: 50px 0px;
+}
+p {
+    margin: 2px 20px 5px 0px;
+}
+.image {
+    flex-basis: 100px;
+    text-align: center;
+}
+.quote p {
+    align-self: flex-end;
+}
+figcaption {
+    font-size: 12px;
+    padding-top: 5px;
+}
+h3 {
+    margin: 0px;
+}
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0px;
 }
