@@ -92,9 +92,11 @@ blockquote {
 .header {
     display: flex;
     align-items: center;
+
 }
 .info-box   {
     display: flex;
+    justify-content: center;
 }
 .info-panel   {
     display: flex;
